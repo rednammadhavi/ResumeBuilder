@@ -1,16 +1,14 @@
-import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Home from "./pages/Home";
-import ResumeBuilder from "./pages/ResumeBuilder";
-import PDFDownload from "./pages/PDFDownload";
+import React from 'react';
+import Navbar from './components/Navbar';
+import AppRoutes from './routes/AppRoutes';
 
-export default function App() {
+const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/build" element={<ResumeBuilder />} />
-        <Route path="/download" element={<PDFDownload />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="bg-white dark:bg-gray-900 min-h-screen text-gray-900 dark:text-white">
+      <Navbar />
+      <AppRoutes />
+    </div>
   );
-}
+};
+
+export default App;
