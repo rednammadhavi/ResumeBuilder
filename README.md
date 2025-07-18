@@ -1,12 +1,29 @@
-# React + Vite
+# 📈 Crypto Tracker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive cryptocurrency tracking web application built with **React**, **Tailwind CSS**, and the **CoinGecko API**. Users can explore live crypto prices, view detailed coin data, track personal watchlists, and convert between currencies with real-time market data.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+-  **Live Coin Prices** – View real-time market data of top cryptocurrencies.
+-  **Watchlist Support** – Add/remove favorite coins to your personal watchlist (stored locally).
+-  **Detailed Coin View** – Access price charts, volume, market cap, and 24h change.
+-  **Currency Converter** – Convert values between different crypto and fiat currencies.
+-  **Dark/Light Theme Toggle** – Switch between themes effortlessly.
+-  **Auto Refresh** – Updates prices periodically to keep data fresh.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **API**: [CoinGecko Public API](https://www.coingecko.com/en/api)
+- **Routing**: React Router
+- **State Management**: useState, useEffect, Context API
+- **Persistence**: localStorage (for watchlist and theme)
+
+
+## 🔗 API Documentation
+
+- 🌐 [CoinGecko API Homepage](https://www.coingecko.com/en/api)
+- 📘 [CoinGecko API Docs (v3)](https://www.coingecko.com/api/documentations/v3)
+
