@@ -25,7 +25,7 @@ const Dashboard = () => {
 
     return (
         <div className="p-4">
-            <h1 className="text-2xl font-bold mb-4 text-center">📈 Live Crypto Market</h1>
+            <h1 className="text-2xl font-bold mb-4 text-center mt-20">📈 Live Crypto Market</h1>
 
             <div className="flex justify-center mb-6">
                 <input
